@@ -7,6 +7,7 @@ extern "C" {
 
 struct RCoroutine {
   MRB_OBJECT_HEADER;
+  mrb_state * mrb;
 };
 
 
