@@ -36,7 +36,8 @@ enum mrb_vtype {
   MRB_TT_FILE,        /*  23 */
   MRB_TT_ENV,         /*  24 */
   MRB_TT_DATA,        /*  25 */
-  MRB_TT_MAXDEFINE    /*  26 */
+  MRB_TT_COROUTINE,   /*  26 */
+  MRB_TT_MAXDEFINE    /*  27 */
 };
 
 typedef struct mrb_value {
@@ -98,7 +99,8 @@ enum mrb_vtype {
   MRB_TT_FILE,        /*  24 */
   MRB_TT_ENV,         /*  25 */
   MRB_TT_DATA,        /*  26 */
-  MRB_TT_MAXDEFINE    /*  27 */
+  MRB_TT_COROUTINE,   /*  27 */
+  MRB_TT_MAXDEFINE    /*  28 */
 };
 
 #ifdef MRB_ENDIAN_BIG
